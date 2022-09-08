@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <form method="get" action="thank-you.html">
+            <fieldset>
+                <legend>Your Information</legend>
+                  <label class="info">
+                  *Full Name: <input type="text" name="fullname" title="Please have at least 5 letters entered" pattern="^[a-zA-Z\s\-\.]{5,}$" required>
+                  </label>
+                  <label class="info">
+                  Email: <input type="email" name="email" placeholder="info@email.com">
+                  </label>  
+                  <label class="info">
+                  *Phone: <input type="tel" name="phone" title="Please write 10 numbers or more" placeholder="123-456-7890" required>
+                  </label>
+                  <label class="info">
+                  *Zip Code: <input type="number" name="zipcode" required>
+                  </label>
+                  <label class="info">
+                    *Password <input type="password" name="clientPassword" placeholder="Password" pattern=".{8,}" title="Eight or more characters" required>
+                  </label>
+              </fieldset>
+              
+                  
+              </fieldset>
+              <input class="submit_button" type="submit" value="Register">
+            </form>
+        </main>
+            
+</body>
+</html>
